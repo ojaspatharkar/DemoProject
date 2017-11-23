@@ -1,0 +1,41 @@
+
+.checkbox{
+  height : 15px;
+  width : 15px;
+  border : 1px solid grey;
+ background-color: #e9e9e9;
+ display: inline-block;
+}
+
+.disabled{
+  -webkit-filter: blur(1px); /* Safari */
+ filter: blur(1px);
+ pointer-events: none;
+}
+
+.accordianOpen{
+  height : 200px;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.accordianClose{
+  height : 0px;
+}
+
+.panel{
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+}
+
+.link{
+  font-size: 20px;
+}
+
+.routePanel{
+  border : 1px solid grey;
+  height : 500px;
+  width : 600px;
+  position: absolute;
+  border-radius: 7px;
+}
